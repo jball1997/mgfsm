@@ -1,0 +1,8 @@
+bin/mgfsm -i SAMPLE_INPUT/ -o SAMPLE_OUTPUT/ -s 3 -g 2 -l 3 -m s
+
+distributed mode
+bin/mgfsm -i SAMPLE_INPUT/ -o SAMPLE_OUTPUT/ -s 3 -g 2 -l 3 -m d
+
+zip -d target/mgfsm-0.0.1-SNAPSHOT-jar-with-dependencies.jar  META-INF/LICENSE
+zip -d target/mgfsm-0.0.1-SNAPSHOT-jar-with-dependencies.jar  license/LICENSE
+zip -d target/mgfsm-0.0.1-SNAPSHOT-jar-with-dependencies.jar LICENSE

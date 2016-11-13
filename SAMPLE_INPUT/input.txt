@@ -1,0 +1,3 @@
+  s1 Central Park is the best place to be on a sunny day in New York
+  s2 Monday was a sunny day in New York
+  s3 It was a sunny and beautiful New York City afternoon
