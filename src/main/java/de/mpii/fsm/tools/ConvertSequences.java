@@ -228,7 +228,12 @@ public class ConvertSequences extends Configured implements Tool {
 	@Override
 	public int run(String[] args) throws Exception {
 
-		LOGGER.setLevel(Level.INFO);
+		LOGGER.setLevel(Level.ALL);
+		
+		for(String arg: args){
+			System.out.println("ConvertSequences arg:" + arg);
+		}
+		
 		if (args.length < 3) {
 			LOGGER.log(Level.WARNING, "Usage: ConvertSequences <input> <output> <numReducers> (<itemSeparator>)");
 			System.exit(-1);

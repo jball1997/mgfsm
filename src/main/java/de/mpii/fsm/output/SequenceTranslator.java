@@ -96,7 +96,7 @@ public class SequenceTranslator {
 			System.out.println("SequenceTranslator arg:" + arg);
 		}
 		
-		logger.setLevel(Level.INFO);
+		logger.setLevel(Level.ALL);
 		
 	    if (args.length != 3) {
 	      logger.log(Level.WARNING, "Usage: SequenceTranslator <input path> <output path> <item dictionary path>");
