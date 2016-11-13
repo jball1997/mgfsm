@@ -92,6 +92,10 @@ public class SequenceTranslator {
 
 	public static void main(String[] args) throws Exception {
 
+		for(String arg: args){
+			System.out.println("SequenceTranslator arg:" + arg);
+		}
+		
 		logger.setLevel(Level.INFO);
 		
 	    if (args.length != 3) {

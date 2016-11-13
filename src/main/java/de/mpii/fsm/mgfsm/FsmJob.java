@@ -93,7 +93,7 @@ public class FsmJob {
      */
     public static void runFsmJob() throws Exception {
         // TODO: should take FsmConfig instance
-        LOGGER.setLevel(Level.INFO);
+        LOGGER.setLevel(Level.ALL);
         // logger.setLevel(Level.OFF);
 
 
